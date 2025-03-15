@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --gradient-start: #4299e1;
+  --gradient-end: #9f7aea;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&q=80&w=2070');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.glass-effect {
+  backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.1);
+}
